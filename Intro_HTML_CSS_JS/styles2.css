@@ -1,0 +1,42 @@
+/* this is heading 1 style */
+h1, h2 {
+  text-align: center;
+  border: 4px solid red;
+  font-family: sans-serif;
+  font-weight: 10;
+}
+
+/* this is heading 2 style */
+h2 {
+  background-color: red;
+}
+
+/* this is paragraph style */
+
+.demo_paragraph {
+  color: green;
+  border: 2px solid red;
+  margin: 20px;
+  padding: 10px;
+}
+
+.demo_heading1 {
+  background-color: red;
+}
+
+#demo_bold {
+  background-color: red;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid red;
+}
+
+th {
+  background-color: red;
+}
