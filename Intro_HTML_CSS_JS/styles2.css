@@ -1,54 +1,12 @@
-body {
-  font-size: 10pt;
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  color: black;
-  line-height: 14pt;
-  padding-left: 5pt;
-  padding-right: 5pt;
-  padding-top: 5pt;
-  }
-  h1 {
-  font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  line-height: 20pt;
-  }
-  p.subheader {
-  font-weight: bold;
-  color: #593d87;
-  }
-  img {
-  padding: 3pt;
-  float: right;
-  }
-  a {
-  text-decoration: none;
-  }
-  a:link, a:visited {
-  color: #8094d6;
-  }
-  a:hover, a:active {
-  color: #FF9933;
-  }
-  div.footer {
-  font-size: 9pt;
-  font-style: italic;
-  line-height: 12pt;
-  text-align: center;
-  padding-top: 30pt;
-  }
-
-
-
-
-  .newspaper {
+.newspaper {
     column-count: 3;
     column-gap: 40px;
     column-rule-style: solid;
     column-rule-width: 1px;
     column-rule-color: lightblue;
     column-rule: 1px solid lightblue;
-  }
+}
 
-  h2 {
+h3 {
     column-span: all;
-  }
+}

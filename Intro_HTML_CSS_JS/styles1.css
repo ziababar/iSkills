@@ -11,6 +11,32 @@ h2 {
   background-color: blue;
 }
 
+body {
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+}
+
+img {
+  padding: 3pt;
+  float: right;
+  }
+
+  div.footer {
+    font-size: 9pt;
+    font-style: italic;
+    line-height: 12pt;
+    text-align: center;
+    padding-top: 30pt;
+    }
+  
+  
+  
+
 /* this is paragraph style */
 
 .demo_paragraph {
