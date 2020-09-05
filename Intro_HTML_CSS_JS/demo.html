@@ -1,62 +1,156 @@
 <!DOCTYPE html>
+<html>
 
-<!-- This is the HEAD of the HTML document -->
 <head>
-  <title>iSkills Workshop</title>
-  <link rel="stylesheet" type="text/css" href="styles1.css">
-  <link rel="stylesheet" type="text/css" href="styles2.css">
+    
 </head>
 
-
-<!-- This is the BODY of the HTML document -->
 <body>
- 
-  <!-- DIV Heading -->
-  <div class="demo_heading">
-    <h1 class="demo_heading1">Hello everyone!</h1>
-    <h1>Welcome to the iSkills Workshop</h1>
-  </div>
 
-  <!-- DIV Paragraph -->
-  <div class="demo_paragraph">
-    <p>This is the introduction to <i>HTML</i>, <i>CSS</i>, and <i>JavaScript</i> <b id="demo_bold">iSkills</b> workshop.</p>
-  
-    <small>I hope it's a fun workshop!</small>
-  </div>
-  
-  <p>In this workshop, we'll explore how websites are built</p>
-  
-  <!-- DIV table -->
-  <div class="demo_table_list">
-    <ol>
-      <li>HTML</li>
-      <ul>
-        <li>Introduction</li>
-        <li>Demo</li>
-      </ul>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ol>
+<h1>Introduction to HTML, CSS and JavaScript</h1>
 
-    <table>
-      <tr>
-        <th>Name</th>
-        <th>Grade</th>
-      </tr>
-        <td>John</td>
-        <td>A</td>
-      <tr>
-        <td>Jill</td>
-        <td>A+</td>
-      </tr>
-      <tr>
-      </tr>    
-    </table>
-  </div>
+<h2>Background</h2>
+<p>
+Have you ever wondered how websites are designed and created? How they are retrieved from a server onto
+a browser and rendered the way they are? What are the skills required to build a website from the ground
+up? This workshop provides an introduction to the technologies used in web development and design. We’ll
+be covering the following web technologies;
+</p>
+
+<ul>
+<li>HTML: Provides the basic structure of a website.</li>
+<li>CSS: Provides capabilities for website formatting, layout and presentation.</li>
+<li>JavaScript: Provides controls to manage the behaviour of different website elements.</li>
+</ul>
+
+<h2>Objectives</h2>
+<p>By the end of this workshop, you’ll be able to;
+<ol>
+  <li>Describe how websites are downloaded and rendered on a browser.</li>
+  <li>Have an understanding of HTML, CSS and JavaScript.</li>
+  <li>Create webpages using a combination of HTML, CSS and JavaScript.</li>
+</ol>
+</p>
+
+<h2>Learnings</h2>
+<p>Technologies covered,</p>
+<table>
+<tr>
+  <td>HTML</td>
+  <td>50 minutes</td>
+</tr>
+<tr>
+  <td>CSS</td>
+  <td>60 minutes</td>
+</tr>
+<tr>
+  <td>JavaScript</td>
+  <td>60 minutes</td>
+</tr>
+</table>
+
+<h2>Register Here</h2>
+
+<form>
+  <p>What is your name?</p>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+
+  <p>What is your gender?</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+
+  <p>What language are you primarily interested in?</p>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> HTML</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> CSS</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> JavaScript</label><br><br>
+
+  <input type='button' onclick='showAlert()' value='Submit'/>
+</form>
+
+<!-- 
+<form>
+  <h1>Custom Checkboxes</h1>
+  <label class="container">One
+    <input type="checkbox" checked="checked">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Two
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Three
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Four
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+</form>
+
+
+
+<h2>CSS Buttons</h2>
+
+<button>Default Button</button>
+<a href="#" class="button">Link Button</a>
+<button class="button">Button</button>
+<input type="button" class="button" value="Input Button">
+
+<h2>Button Colors</h2>
+<p>Change the background color of a button with the background-color property:</p>
+
+<button class="button">Green</button>
+<button class="button button2">Blue</button>
+<button class="button button3">Red</button>
+<button class="button button4">Gray</button>
+<button class="button button5">Black</button>
+
+<div class="newspaper">
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+</div>
   
-  <!-- Load the UofT icon here -->
-  <p></p>
-  <a href="https://www.utoronto.ca/">UofT</a>
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Utoronto_coa.svg/1024px-Utoronto_coa.svg.png" width="100" height="100" alt="UofT Logo">
-  
+
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+-->
+<script>
+
+function showAlert() {
+var firstname = document.getElementById('fname').value;
+var lastname = document.getElementById('lname').value;
+alert('Hello, ' + firstname + ' ' + lastname);
+}
+
+function randomInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+function checkRegistration(){
+var regNumber = randomInteger(1, 100);
+if (regNumber <= 40) {
+  alert('Thank you for early registration!');
+}
+
+}
+</script>
+
+
 </body>
+</html>
