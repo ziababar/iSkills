@@ -24,19 +24,16 @@ body {
 img {
   padding: 3pt;
   float: right;
-  }
+}
 
-  div.footer {
-    font-size: 9pt;
-    font-style: italic;
-    line-height: 12pt;
-    text-align: center;
-    padding-top: 30pt;
-    }
+div.footer {
+  font-size: 9pt;
+  font-style: italic;
+  line-height: 12pt;
+  text-align: center;
+  padding-top: 30pt;
+}
   
-  
-  
-
 /* this is paragraph style */
 
 .demo_paragraph {
@@ -66,4 +63,3 @@ table, th, td {
 th {
   background-color: gray;
 }
-

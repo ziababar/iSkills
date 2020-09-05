@@ -1,29 +1,11 @@
-function validInput() {
-    var x, text;
-  
-    // Get the value of the input field with id="numb"
-    x = document.getElementById("numb").value;
-  
-    // If x is Not a Number or less than one or greater than 10
-    if (isNaN(x) || x < 1 || x > 10) {
-      text = "Input not valid";
-    } else {
-      text = "Input OK";
-    }
-    document.getElementById("demo").innerHTML = text;
-}
-
-
-function showAlert() {
-}
-    
+// Generate a number from 1 to 100
 function randomInteger(min, max) {
-      return Math.floor(Math.random() * (max - min + 1)) + min;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
     
-function checkRegistration(){
+// Check if the registration is correct
+function checkRegistration() {
     var regNumber = randomInteger(1, 100);
-
     var firstName = document.getElementById('fname').value;
     var lastName = document.getElementById('lname').value;
 
@@ -36,7 +18,5 @@ function checkRegistration(){
       alert('Thank you for early registration, ' + firstName + ' ' + lastName);
     } else {
         alert('Sorry, registration is now closed');
-    }
-
-    
+    }   
 }
