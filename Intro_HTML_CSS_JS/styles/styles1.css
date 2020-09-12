@@ -1,0 +1,74 @@
+h1 {
+  color: blue; 
+}
+
+/* this is heading 2 style */
+h2 {
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  padding: 5px;
+}
+
+body {
+  font-size: 10pt;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+}
+
+img {
+  padding: 3pt;
+  float: right;
+}
+
+.topbar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+button.btn1 {
+	background-color: green;
+  color: white;
+  float: left;
+}
+
+div.footer {
+  font-size: 9pt;
+  font-style: italic;
+  line-height: 12pt;
+  text-align: center;
+  padding-top: 30pt;
+}
+  
+/* this is paragraph style */
+
+.demo_paragraph {
+  color: green;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.demo_heading1 {
+  background-color: purple;
+}
+
+#demo_bold {
+  background-color: red;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: gray;
+}

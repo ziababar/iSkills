@@ -32,6 +32,16 @@ img {
   float: right;
 }
 
+.topbar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+button.btn2 {
+	background-color: green;
+	color: white;
+}
+
 div.footer {
   font-size: 9pt;
   font-style: italic;
@@ -68,4 +78,24 @@ table, th, td {
 
 th {
   background-color: gray;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
 }

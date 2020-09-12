@@ -20,3 +20,7 @@ function checkRegistration() {
         alert('Sorry, registration is now closed');
     }   
 }
+
+function onClick_StyleButton(s) {
+	document.getElementById("toggleableStyle").href = "styles/styles" + s + ".css";
+}
