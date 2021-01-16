@@ -1,12 +1,12 @@
 h1 {
-  color: blue; 
+  color: white;
 }
 
 /* this is heading 2 style */
 h2 {
-  font-size: 16px;
-  background-color: lightblue;
   color: white;
+  font-size: 16px;
+  background-color: #002a5c;
   padding: 5px;
 }
 
@@ -27,6 +27,7 @@ img {
 .topbar {
   display: inline-block;
   vertical-align: middle;
+  background-color:#00204E;
 }
 
 button.btn1 {
